@@ -6,9 +6,13 @@
 * [protovalidate examples](https://github.com/bufbuild/protovalidate/tree/main/examples)
 * [Common Expression Language](https://cel.dev/overview/cel-overview)  (CEL) is a general-purpose expression language designed to be fast, portable, and safe to execute. You can use CEL on its own or embed it into a larger product. CEL is a great fit for a wide variety applications, from routing remote procedure calls (RPCs) to defining security policies. CEL is extensible, platform independent, and optimized for compile-once/evaluate-many workflows.
 * [cel-spec Github](https://github.com/google/cel-spec) / [CEL intro](https://github.com/google/cel-spec/blob/master/doc/intro.md)
-* [protovalidate-net](https://github.com/telus-oss/protovalidate-net) is the C# implementation of protovalidate, designed to validate Protobuf messages at runtime based on user-defined validation constraints. 
+* [protovalidate-net](https://github.com/telus-oss/protovalidate-net) is the C# implementation of protovalidate, designed to validate Protobuf messages at runtime based on user-defined validation constraints.
+* [Blog: Announcing protoc-gen-validate v1.0 and our plans for v2.0
+](https://buf.build/blog/protoc-gen-validate-v1-and-v2)
 
-
+Other
+* [Using multiple repositories within Azure DevOps pipelines
+](https://msftplayground.com/2021/05/using-multiple-repositories-within-azure-devops-pipelines/) may be useful to remove the need to download `protovalidate` into every repo that it is needed
 
 ```
 syntax = "proto3";
